@@ -1,0 +1,83 @@
+@media (min-width: 1200px) {
+
+
+    :root {
+
+
+        --fs-1: 7rem;
+        --fs-2: 5.5rem;
+        --fs-4: 2.2rem;
+        --fs-5: 2rem;
+
+
+        --section-padding: 120px;
+
+    }
+
+
+    .container,
+    .header .container {
+        max-width: 1140px;
+    }
+
+    .btn {
+        padding: 18px 45px;
+        border-radius: var(--radius-10);
+    }
+
+    .section-subtitle {
+        --fs-5: 2.2rem;
+    }
+
+    .has-scrollbar {
+        gap: 30px;
+    }
+
+    .scrollbar-item {
+        min-width: calc(33.33% - 20px);
+    }
+
+
+    .header .container {
+        padding-inline: 0;
+    }
+
+
+    .hero::after {
+        width: 420px;
+    }
+
+    .hero .section-text {
+        --fs-6: 1.8rem;
+    }
+
+    .abs-img-1 {
+        top: 170px;
+        right: -30px;
+        width: 260px;
+    }
+
+    .abs-img-2 {
+        bottom: 60px;
+        left: -80px;
+        width: 360px;
+    }
+
+
+    .about .wrapper {
+        gap: 40px;
+    }
+
+    :is(.class-card, .blog-card) .card-content {
+        padding: 30px;
+    }
+
+    .blog-card .card-meta {
+        padding: 15px 30px;
+    }
+
+    .footer-top .container {
+        grid-template-columns: 1fr 0.6fr 0.9fr 1fr;
+    }
+
+}
